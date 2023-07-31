@@ -1031,9 +1031,9 @@ function initGalleries() {
         );
 
         // Dodavanje event slušača na klik div elementa
-        divElement.addEventListener("click", () =>
-          openGalleryModal(gallery, i + 1)
-        );
+        // divElement.addEventListener("click", () =>
+        //   openGalleryModal(gallery, i + 1)
+        // );
       }
     }
   });
