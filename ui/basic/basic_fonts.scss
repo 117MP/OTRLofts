@@ -16,7 +16,7 @@ $fonts: (
 
     @each $type in $font-types {
         $font-family: '#{$font-name}-#{$type}';
-        $font-path: "/assets/fonts/#{$font-name}-#{$type}.woff";
+        $font-path: "assets/fonts/#{$font-name}-#{$type}.woff";
 
         @font-face {
             font-family: #{$font-family};
