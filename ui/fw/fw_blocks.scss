@@ -435,6 +435,10 @@
         right: auto;
         margin-left: $s-s-xs;
         margin-right: $s-s-xs;
+
+        ion-icon {
+                color: $color-primary !important;
+            }
     }
 
     

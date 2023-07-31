@@ -3073,6 +3073,9 @@ body {
   margin-left: clamp(24px, 2.7777777778vw + 8px, 48px);
   margin-right: clamp(24px, 2.7777777778vw + 8px, 48px);
 }
+._navigation--relative ion-icon {
+  color: #000000 !important;
+}
 ._navigation .logo, ._navigation .menu {
   width: 150px;
 }
